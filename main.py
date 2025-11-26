@@ -10,9 +10,7 @@ def get_book_text(path):
         return f.read()
 
 
-def word_count(text):
-    count = len(text.split())
-    return count
+from stats import word_count
 
 
 main()
